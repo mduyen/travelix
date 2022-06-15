@@ -1,0 +1,43 @@
+.content{
+    height: 100rem;
+    width: 100%;
+}
+.cart__content{
+    width: 100%;
+}
+.cart__product{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 20rem;
+    width: 95%;
+    background-color: aqua;
+    margin: 2rem auto;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.cart__check{
+    width: 5%;
+    background-color: blue;
+}
+.cart__product{
+    display: flex;
+}
+.cart__image{
+    width: 20%;
+    height: 10rem;
+    background-color: aqua;
+}
+.cart__book{
+    background-color: blueviolet;
+    width: 20%;
+}
+.cart__total{
+    width: 20%;
+    background-color: coral;
+}
+
+/* mobile: width < 740px */
+@media only screen and (max-width: 46.1875em){
+    
+}

@@ -1,0 +1,505 @@
+html{
+    font-size: 62.5%;
+}
+:root{
+    --white: #fff;
+    --black: #333;
+    --blue: #04829b;
+    --lightblue: hsl(198, 50%, 45%);
+    --boldblue: rgb(0, 102, 125);
+    --coverblue: rgba(4, 129, 154, 0.717);
+    --yellow: #ff8c00;
+    --graytext: #727272;
+    --line: linear-gradient(to right, #fa9e1b, #8d4fff);
+}
+.seemore{
+    background-color: var(--yellow);
+    border: none;
+    height: 3rem;
+    border-radius: 30px;
+    color: var(--white);
+    font-weight: 500;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+}
+.myslider{
+    background-image: url(../images/product-image/breakfast.jpg);
+}
+.mobile{
+    display: none;
+}
+/* detail */
+.detail{
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.detail__content{
+    width: 100%;
+}
+.detail__column{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.detail__image__container{
+    width: 50%;
+}
+.detail__image1{
+    height: 39rem;
+    margin-bottom: 2rem;
+}
+.detail__infor{
+    width: 40%;
+    margin-left: 3%;
+}
+.detail__infor .santorini{
+    color: var(--yellow);
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.detail__infor .greece{
+    font-size: 2rem;
+    color: var(--black);
+    font-weight: 200;
+    color: var(--boldblue);
+}
+.detail__infor .lorem{
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+}
+.detail__infor .nunc{
+    font-size: 1.4rem;
+    padding: 1rem 0;
+}
+.detail__image2{
+    display: flex;
+    height: 11rem;
+    width: 100%;
+}
+.detail__image2 img{
+    margin-right: 0.3rem;
+    cursor: pointer;
+}
+.detail__star{
+    display: flex;
+    color: var(--yellow);
+    font-size: 1.4rem;
+    padding: 2rem 0;
+}
+.detail__star i{
+    padding-right: 0.5rem;
+}
+.detail__star p{
+    color: var(--boldblue);
+    font-size: 1.5rem;
+}
+.detail__title{
+    margin-top: 2.5rem;
+    display: flex;
+}
+.detail__title p{
+    padding-right: 11.6rem;
+    font-size: 1.4rem;
+    color: var(--graytext);
+}
+.detail__tac{
+    display: flex;
+}
+.detail__adults__all{
+    display: flex;
+}
+.detail__adults{
+    display: flex;
+    background-color: rgb(228, 228, 228);
+    width: 14rem;
+    height: 3.8rem;
+    margin-right: 1.2rem;
+    align-items: center;
+    cursor: pointer;
+
+}
+.detail__adults p{
+    color: rgb(182, 182, 182);
+    font-size: 2rem;
+    padding-left: 0.8rem;
+}
+.detail__adults input{
+    width: 5rem;
+    padding-top: 1.5rem;
+    color: gray;
+    padding-left: 0.5rem;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.detail__children{
+    background-color: rgb(228, 228, 228);
+    width: 13rem;
+    height: 4rem;
+}
+
+.detail__button button{
+    margin-top: 3.5rem;
+    border-radius: 4rem;
+    padding: 1.3rem 5rem;
+    width: 22rem;
+    cursor: pointer;
+}
+.detail__button .from{
+    background-color: var(--white);
+    border: 2px solid var(--yellow);
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: var(--yellow);
+}
+.detail__button .from:hover{
+    background-color: #ff8c00;
+    color: #fff;
+    transition: 0.8s;
+    border: none;
+}
+.detail__button .from:not(:hover){
+    transition: 0.8s;
+}
+.detail__button .book{
+    border: 2px solid var(--yellow);
+    background-color: #ff8c00;
+    border: none;
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+/* maybe you like */
+.like{
+    width:  100%;
+    height: auto;
+    margin: 7rem 0;
+}
+.like__title p{
+    color: var(--yellow);
+    font-size: 2rem;
+    padding: 5rem 2rem;
+    font-weight: 600;
+}
+.like__container{
+    width: 100%;
+    height: auto;
+}
+.like__all{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.like__content{
+    width: 18%;
+    height: 30rem;
+    position: relative;
+}
+.like__country{
+    position: absolute;
+    top: 5rem;
+    left: 0rem;
+    background-color: var(--white);
+    font-size: 2rem;
+    color: var(--yellow);
+    font-weight: 600;
+    height: 4rem;
+    width: 14rem;
+    padding: 0.6rem 1rem;
+}
+.like__price{
+    position: absolute;
+    top: 9.5rem;
+    left: 0rem;
+    background-color: var(--white);
+    font-size: 1rem;
+    color: var(--yellow);
+    font-weight: 600;
+    height: 4rem;
+    width: 14rem;
+    padding: 0.7rem 1rem;
+}
+.like__price .capital{
+    color: var(--boldblue);
+}
+.like__price p{
+    color: var(--black);
+}
+.line__nullam{
+    position: absolute;
+    bottom: 6rem;
+    right: -5rem;
+    transform: rotate(90deg);
+    color: var(--white);
+    width: 100%;
+}
+.like__content button{
+    position: absolute;
+    top: 25.5rem;
+    left: 1rem;
+    cursor: pointer;
+    width: 11rem;
+}
+.map{
+    height: 70rem;
+    margin-left: 7%;
+}
+
+/* mobile: width < 740px */
+@media only screen and (max-width: 46.1875em){
+    .none{
+        display: none;
+    }
+    .mobile{
+        display: b;
+    }
+    .detail{
+        width: 100%;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+    .detail__content{
+        width: 100%;
+    }
+    .detail__column{
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+    .detail__image__container{
+        width: 100%;
+    }
+    .detail__image1{
+        height: 35rem;
+        margin-bottom: 2rem;
+    }
+    .detail__infor{
+        width: 100%;
+        margin-left: 3%;
+    }
+    .detail__infor .santorini{
+        color: var(--yellow);
+        font-size: 4.5rem;
+        font-weight: 700;
+    }
+    .detail__infor .greece{
+        font-size: 2rem;
+        color: var(--black);
+        font-weight: 200;
+        color: var(--boldblue);
+    }
+    .detail__infor .lorem{
+        font-weight: 600;
+        font-size: 1.4rem;
+        padding: 0.5rem;
+    }
+    .detail__infor .nunc{
+        font-size: 1.4rem;
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .detail__image2{
+        display: flex;
+        height: 11rem;
+        width: 100%;
+    }
+    .detail__image2 img{
+        margin-right: 0.3rem;
+        cursor: pointer;
+    }
+    .detail__star{
+        display: flex;
+        color: var(--yellow);
+        font-size: 1.4rem;
+        padding: 2rem 0;
+    }
+    .detail__star i{
+        padding-right: 0.5rem;
+    }
+    .detail__star p{
+        color: var(--boldblue);
+        font-size: 1.5rem;
+    }
+    .detail__title{
+        margin-top: 2.5rem;
+        display: flex;
+    }
+    .detail__title p{
+        padding-right: 11.6rem;
+        font-size: 1.4rem;
+        color: var(--graytext);
+    }
+    .detail__tac{
+        display: flex;
+    }
+    .detail__adults__all{
+        display: flex;
+    }
+    .detail__adults{
+        display: flex;
+        background-color: rgb(228, 228, 228);
+        width: 14rem;
+        height: 3.8rem;
+        margin-right: 1.2rem;
+        align-items: center;
+        cursor: pointer;
+    
+    }
+    .detail__adults p{
+        color: rgb(182, 182, 182);
+        font-size: 2rem;
+        padding-left: 0.8rem;
+    }
+    .detail__adults input{
+        width: 5rem;
+        padding-top: 1.5rem;
+        color: gray;
+        padding-left: 0.5rem;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .detail__children{
+        background-color: rgb(228, 228, 228);
+        width: 13rem;
+        height: 4rem;
+    }
+    
+    .detail__button button{
+        margin-top: 3.5rem;
+        border-radius: 4rem;
+        padding: 1.3rem 5rem;
+        width: 22rem;
+        cursor: pointer;
+    }
+    .detail__button .from{
+        background-color: var(--white);
+        border: 2px solid var(--yellow);
+        margin-right: 1rem;
+        font-size: 1.5rem;
+        color: var(--yellow);
+    }
+    .detail__button .from:hover{
+        background-color: #ff8c00;
+        color: #fff;
+        transition: 0.8s;
+        border: none;
+    }
+    .detail__button .from:not(:hover){
+        transition: 0.8s;
+    }
+    .detail__button .book{
+        border: 2px solid var(--yellow);
+        background-color: #ff8c00;
+        border: none;
+        color: var(--white);
+        font-size: 1.5rem;
+    }
+    /* maybe you like */
+
+.like{
+    width:  100%;
+    height: auto;
+    margin: 7rem 0;
+}
+.like__title p{
+    display: block;
+    color: var(--yellow);
+    font-size: 2rem;
+    padding: 5% 30%;
+    font-weight: 600;
+    width: 100%;
+}
+.like__container{
+    width: 100%;
+    height: auto;
+}
+.like__all{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.like__content{
+    width: 32%;
+    height: 30rem;
+    position: relative;
+}
+.like__country{
+    position: absolute;
+    top: 5rem;
+    left: 0rem;
+    background-color: var(--white);
+    font-size: 2rem;
+    color: var(--yellow);
+    font-weight: 600;
+    height: 4rem;
+    width: 12rem;
+    padding: 0.6rem 1rem;
+}
+.like__price{
+    position: absolute;
+    top: 9.5rem;
+    left: 0rem;
+    background-color: var(--white);
+    font-size: 1rem;
+    color: var(--yellow);
+    font-weight: 600;
+    height: 4rem;
+    width: 12rem;
+    padding: 0.7rem 1rem;
+}
+.like__price .capital{
+    color: var(--boldblue);
+}
+.like__price p{
+    color: var(--black);
+}
+.line__nullam{
+    position: absolute;
+    bottom: 7%;
+    right: -35%;
+    transform: rotate(90deg);
+    color: var(--white);
+    width: 100%;
+}
+.like__content button{
+    position: absolute;
+    top: 25.5rem;
+    left: 1rem;
+    cursor: pointer;
+    width: 11rem;
+}
+.map{
+    height: 70rem;
+    margin-left: 7%;
+}
+}
+/* tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .block{
+        display: none;
+    }
+    .detail__button button{
+        margin-top: 3.5rem;
+        border-radius: 4rem;
+        padding: 1.3rem 3rem;
+        width: 16rem;
+        cursor: pointer;
+    }
+    .detail__button .from{
+        background-color: var(--white);
+        border: 2px solid var(--yellow);
+        margin-right: 1rem;
+        font-size: 1.2rem;
+        color: var(--yellow);
+    }
+    .like__content{
+        width: 24%;
+        height: 30rem;
+        position: relative;
+    }
+}

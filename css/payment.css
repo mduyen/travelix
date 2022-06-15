@@ -1,0 +1,340 @@
+.image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+    overflow: hidden;
+}
+.myslider{
+    background-image: url(../images/payment-image/james-ting.jpg);
+    image-rendering: pixelated;
+}
+.bg__gray{
+    background-color: rgb(223, 223, 223);
+    height: 130rem;
+    width: 100%;
+    position: relative;
+}
+.br__white{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    right: 2rem;
+    height: 125rem;
+    background-color: #fff;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.delivery{
+    height: 20rem;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+    width: 90%;
+    margin: 5rem auto;
+    padding: 3rem;
+    font-size: 1.5rem;
+    line-height: 4rem;
+}
+.payment__content{
+    height: 40rem;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+    width: 90%;
+    margin: 4rem auto;
+    padding: 3rem;
+    display: flex;
+}
+.payment__content__column{
+    width: 25%;
+}
+.payment__content__image{
+    width: 100%;
+    margin: 4rem 0;
+}
+.payment__image{
+    width: 18rem;
+    height: 10rem;
+    margin: 2rem;
+}
+.payment__content__amount{
+    width: 10%;
+    padding-top: 2rem;
+}
+.payment__content__amount p{
+    padding-bottom: 6rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: gray;
+}
+.payment__content__amount input{
+    width: 5rem;
+    background-color: rgb(211, 209, 209);
+    padding-left: 2rem;
+    margin-bottom: 12rem;
+    color: gray;
+}
+::placeholder{
+    color: gray;
+}
+.payment__voucher{
+    width: 40%;
+    
+}
+.payment__voucher p{
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 4rem;
+    width: 100%;
+    margin-top: 25rem;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: gray;
+    cursor: pointer;
+}
+.payment__total{
+    width: 30%;
+    padding-left: 7rem;
+    padding-top: 6rem;
+}
+.payment__total p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: 4rem;
+}
+.payment__total span{
+    font-weight: 400;
+    color: rgba(255, 150, 0, 1);
+}
+.payment__total .line{
+    color: gray;
+}
+.button{
+    margin-top: 2rem;
+    margin-left: -10rem;
+    display: flex;
+    width: 35rem;
+    cursor: pointer;
+}
+.button p{
+    border: 1px solid rgba(255, 150, 0, 1);
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+.button .code{
+    color: rgba(255, 150, 0, 1);
+}
+.button .pay{
+    background-color:rgba(255, 150, 0, 1);
+    color: #fff;
+
+}
+.payment__method{
+    height: 48rem;
+    text-align: center;
+}
+.payment__method p{
+    padding: 5rem 0;
+    font-size: 2.5rem;
+    color: rgba(55, 114, 169, 1);
+    font-weight: 600;
+}
+.payment__method__image{
+    width: 100%;
+    height: 38rem;
+}
+.payment__payment{
+    width: 80%;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 8rem 13rem;
+    margin: 0 auto;
+}
+.success{
+    height: 30rem;
+    align-items: center;
+    justify-content: center;
+}
+.success p{
+    padding: 6rem;
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(55, 114, 169, 1);
+    font-weight: 500;
+}
+.success__btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.success__btn button{
+    border: 1px solid rgba(231, 84, 84, 1);
+    width: 23rem;
+    padding: 1.8rem 6rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn__home{
+    background-color: #fff;
+    color: rgba(231, 84, 84, 1);
+    font-weight: 700;
+}
+.cancel{
+    background-color: rgba(231, 84, 84, 1);
+    color: #fff;
+}
+/* mobile: width < 740px */
+@media only screen and (max-width: 46.1875em){
+    .bg__gray{
+        background-color: rgb(223, 223, 223);
+        height: 150rem;
+        width: 100%;
+        position: relative;
+    }
+    .br__white{
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        right: 2rem;
+        height: 145rem;
+        background-color: #fff;
+        width: 95%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .delivery{
+        height: 25rem;
+    }
+    .payment__content{
+        height: 60rem;
+        width: 90%;
+        margin: 4rem auto;
+        padding: 3rem;
+    }
+    .payment__content__column{
+        width: 50%;
+    }
+    .payment__content__image{
+        width: 100%;
+        margin: 4rem 0;
+    }
+    .payment__image{
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem;
+    }
+    .payment__content__amount{
+        width: 20%;
+        padding-top: 2rem;
+    }
+    .payment__content__amount p{
+        padding-bottom: 6rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: gray;
+    }
+    .payment__content__amount input{
+        width: 5rem;
+        background-color: rgb(211, 209, 209);
+        padding-left: 2rem;
+        margin-bottom: 12rem;
+        color: gray;
+    }
+    ::placeholder{
+        color: gray;
+    }
+    .payment__voucher{
+        width: 40%;
+        display: none;
+    }
+    .payment__voucher p{
+        border: 1px solid gray;
+        border-radius: 20px;
+        height: 4rem;
+        width: 100%;
+        margin-top: 25rem;
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: gray;
+        cursor: pointer;
+    }
+    .payment__total{
+        display: block;
+        width: 30%;
+        padding-left: 7rem;
+        padding-top: 6rem;
+    }
+    .payment__total p{
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding-bottom: 4rem;
+    }
+    .payment__total span{
+        font-weight: 400;
+        color: rgba(255, 150, 0, 1);
+    }
+    .payment__total .line{
+        color: gray;
+        font-size: 0.5rem;
+    }
+    .button{
+        margin-top: 2rem;
+        width: 35rem;
+        cursor: pointer;
+        padding-right: 20rem;
+    }
+    .button p{
+        border: 1px solid rgba(255, 150, 0, 1);
+        width: 100%;
+        text-align: center;
+        border-radius: 20px;
+        padding: 1rem;
+        margin-right: 1rem;
+    }
+    .button .code{
+        color: rgba(255, 150, 0, 1);
+    }
+    .button .pay{
+        background-color:rgba(255, 150, 0, 1);
+        color: #fff;
+    
+    }
+    .payment__method p{
+        padding: 3rem 0;
+        font-size: 2rem;
+    }
+    .payment__method__image{
+        width: 30rem;
+        height: 34rem;
+       margin: 2rem auto;
+    }
+    .payment__payment{
+        width: 100%;
+        height: 20rem;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem 6rem;
+        margin: 0 auto;
+    }
+
+
+    .success{
+        height: 30rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .success__btn button{
+        width: 25rem;
+    }
+    
+}

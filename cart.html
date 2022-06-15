@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/baseindex2.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section class="banner">
+            <div class="banner__img">
+                <div class="slider">
+                    <div class="myslider">
+                        <!-- <img class="image" src="./images/product-image/36.jpg" alt=""> -->
+                        <div class="myslider__text">
+                            <h1>Cart</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner__searchbox">
+                    <input type="search" placeholder="Search..."/>
+                    <a href="#" class="icon">
+                        <i class="fal fa-search"></i>
+                    </a> 
+                </div>
+            </div>
+            <header>
+                <div class="header__logo">
+                    <i class="fas fa-whale"></i>
+                    <a href="index.html" class="logo">Travelix</a>
+                </div>
+                <div class="header__nav">
+                    <ul>
+                        <li>
+                            <a href="index.html" >Home</a>
+                            <a href="cart.html" class="home">Cart</a>
+                            <a href="payment.html">Payment</a>
+                            <a href="product.html">Product</a>
+                            <a href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__icon">
+                    <i class="fal fa-bell"></i>
+                    <i class="fal fa-user"></i>
+                </div>
+                
+                <label for="check-bar" class="header__bars">
+                    <i class="fal fa-bars"></i>
+                </label>
+                <input type="checkbox" hidden name="" id="check-bar">
+                <div class="bar-mobile">
+                    <label class="posv" for="check-bar">
+                        <i class="fal fa-times"></i>
+                    </label>
+                    <ul>
+                        <li>
+                            <a href="index.html" class="home">Home</a>
+                            <a href="cart.html">Cart</a>
+                            <a href="payment.html">Payment</a>
+                            <a href="product.html">Product</a>
+                            <a href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- <div class="header__nav-icon" onclick="name();">
+                    <div class="header__user">
+                        <h1 id="name">my duyn</h1>
+                    </div>
+                    <div id="nav_menu"></div>
+                    <div class="header__menu">
+                        <ul>
+                            <li>
+                                <a href="#" class="home">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#" style="position: relative; bottom: 3px; font-weight: 600;">ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="#" style="position: relative; bottom: 3px; font-weight: 600;">BLOG</a>
+                            </li>
+                            <li>
+                                <a href="#" style="position: relative; bottom: 3px; font-weight: 600;">OFFERS</a>
+                            </li>
+                            <li>
+                                <a href="#" style="position: relative; bottom: 3px; font-weight: 600;">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+            </header>
+        </section>
+        <section class="content">
+            <div class="cart__content">
+                <div class="cart__content__column">
+                    <h3>Amsterdam</h3>
+                    <div class="cart__product">
+                        <div class="cart__check">
+                            <input type="check">
+                        </div>
+                        <div class="cart__image">
+                            <img class="image" src="./images/cart-image/xuan-nguyen.jpg" alt="">
+                        </div>
+                        <div class="cart__book">
+                            <h4>Book</h4>
+                            <p>Flight: </p>
+                            <p>Vietnamairline [VIP, 0.2 people]</p>
+                            <p>Home: </p>
+                            <p>Hotel Muong Thanh [0.2 people]</p>
+                        </div>
+                        <div class="cart__total">
+                            <h4>Total: </h4>
+                            <div class="cart__total__content">
+                                <p>Vietnamairline [VIP, 02 people] <span>$2000</span></p>
+                                <p>Hotel Muong Thanh [02 people] <span>$1500</span></p>
+                            </div>
+                            <div class="cart__total__content">
+                                <input type="text" placeholder="Code...">
+                                <input type="text" placeholder="TOTAL: $3500">
+                            </div>
+                            <div class="cart__remove">
+                                <p>-</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <footer>
+            <div class="footer__content">
+                <div class="footer12">
+                    <div class="footer1">
+                        <div class="footer__content-travelix">
+                            <div class="footer__logo header__logo">
+                                <i class="fas fa-whale"></i>
+                                <a href="index.html" class="logo">Travelix</a>
+                            </div>
+                            <div class="footer__content-p">
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, sint eum explicabo tempore officia quam deleniti, reiciendis iure pariatur culpa sequi nemo voluptas veniam animi, nisi minus distinctio!</p>
+                            </div>
+                            <div class="footer_icon">
+                                <i><ion-icon name="logo-facebook"></ion-icon></i>
+                                <i><ion-icon name="logo-instagram"></ion-icon></i>
+                                <i><ion-icon name="logo-twitter"></ion-icon></i>
+                                <i><ion-icon name="logo-pinterest"></ion-icon></i>
+                                <i><ion-icon name="logo-discord"></ion-icon></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer2" >
+                        <div class="footer__content-blog">
+                            <div class="footer__title2">
+                                <p>SOME BLOG</p>
+                            </div>
+                            <div class="footer2__all">
+                                <div class="footer2__content">
+                                    <div class="footer__image">
+                                        <img class="image" src="./images/index-image/35.jpg" alt="">
+                                    </div>
+                                    <div class="twm">
+                                        <h5>Traver with me this year</h5>
+                                        <p>March 17th</p>
+                                    </div>
+                                </div>
+                                <div class="footer2__content">
+                                    <div class="footer__image">
+                                        <img class="image" src="./images/index-image/36.jpg" alt="">
+                                    </div>
+                                    <div class="twm">
+                                        <h5>Traver with me this year</h5>
+                                        <p>March 17th</p>
+                                    </div>
+                                </div>
+                                <div class="footer2__content">
+                                    <div class="footer__image">
+                                        <img class="image" src="./images/index-image/37.jpg" alt="">
+                                    </div>
+                                    <div class="twm">
+                                        <h5>Traver with me this year</h5>
+                                        <p>March 17th</p>
+                                    </div>
+                                </div>
+                                <div class="footer2__content">
+                                    <div class="footer__image">
+                                        <img class="image" src="./images/index-image/38.jpg" alt="">
+                                    </div>
+                                    <div class="twm">
+                                        <h5>Traver with me this year</h5>
+                                        <p>March 17th</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer3" id="none">
+                    <div class="footer__content-tag">
+                        <div class="footer__tag-title">
+                            <h5>TAGS</h5>
+                        </div>
+                        <div class="tag">
+                            <p class="travel">#travel</p>
+                            <p class="duyn">#home</p>
+                        </div>
+                        <div class="tag">
+                            <p class="travel">#activities</p>
+                            <p class="duyn">#duyn</p>
+                        </div>
+                        <div class="tag">
+                            <p class="travel">#tree</p>
+                            <p class="duyn">#sunshine</p>
+                        </div>
+                        <div class="tag">
+                            <p class="travel">#travel</p>
+                            <p class="duyn">#home</p>
+                        </div>
+                        <div class="tag">
+                            <p class="travel">#activities</p>
+                            <p class="duyn">#duyn</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer4">
+                    <div class="footer__content-contact">
+                        <div class="footer__contact">
+                            <h5>CONTACT INFOR</h5>
+                        </div>
+                        <p>www.newbiedev.com</p>
+                        <p>+84 1938463847</p>
+                        <p>mduyn@gmail.com</p>
+                        <p>24, Quang Trung, Quận 12, Tp HCM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p style="color: white;">Copyright by <span style="color: #f9b454;">My Duyen</span></p>
+            </div>
+        </footer>  -->
+
+    </div>
+    <script src="./js/index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

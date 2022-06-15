@@ -1,0 +1,287 @@
+.lg{
+    display: none;
+}
+.login__background{
+    width: 100%;
+    height: 70rem;
+    position: relative;
+    background-image: url(../images/login-image/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.login__background__cover{
+    position: absolute;
+    background-color: rgba(149, 149, 149, 0.432);
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70rem;
+}
+.login{
+    height: 65rem;
+    background-color: #ff9f18;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 5%;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login__logo{
+    color: #fff;
+    font-size: 2rem;
+    padding: 4rem 5%;
+}
+.login__logo i{
+    font-size: 3rem;
+    padding-right: 0.5rem;
+}
+.login__icon__user{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 1rem 1.2rem;
+}
+.login__icon__user i{
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* content */
+.login__content{
+    position: absolute;
+    top: 11.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.login__content__image{
+    width: 45%;
+    height: 40rem;
+}
+.login__image__1and2{
+    display: flex;
+    margin: 0 4rem;
+}
+.login__image__1and2 .image__text1{
+    width: 60%;
+    height: 19rem;
+    border-radius: 18px;
+    margin-right: 1rem;
+}
+.image1{
+    border-radius: 18px;
+}
+.image2{
+    border-radius: 18px;
+}
+.image3{
+    border-radius: 18px;
+}
+.image__text1{
+    position: relative;
+    
+}
+
+.image__text1 p{
+    color: #fff;
+    position: absolute;
+    top: 15.5rem;
+    left: 7%;
+    font-size: 1.1rem;
+}
+.image__text1 .holy{
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+    font-size: 2.5rem;
+    font-family: "Dancing Script";
+}
+
+.login__image__1and2 .image__text2{
+    position: relative;
+    height: 19rem;
+    width: 30%;
+}
+.image__text2 p{
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    color: #fff;
+    font-family: "Dancing Script";
+    font-size: 2rem;
+    transform: rotate(90deg);
+}
+
+.login__image__3 .image__text3{
+    position: relative;
+    width: 79%;
+    height: 20rem;
+    margin: 1rem 4rem;
+}
+.image__text3 p{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    color: #fff;
+    font-family: "Dancing Script";
+    font-size: 2rem;
+}
+.login__content__form{
+    position: relative;
+    width: 50%;
+    height: 40rem;
+    background-color: #fff;
+    border-radius: 18px;
+    margin-right: 3%;
+    box-shadow: rgba(0, 0, 0, 0.24) 4px 4px 10px;
+}
+.login__form__title p{
+    position: absolute;
+    top: 10%;
+    left: 12.5%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #f9b454;
+}
+.login__form__input{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    width: 71%;
+}
+
+.login__form__input input{
+    margin: 2.5rem 0;
+    width: 100%;
+    height: 4rem;
+    display: block;
+    border-bottom: 1px solid rgb(169, 169, 169);
+    color: #333;
+    font-size: 1.5rem;
+}
+.login__form__input input::placeholder{
+    color: rgb(152, 152, 152);
+    font-weight: 500;
+}
+.login__form__input p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(143, 143, 143);
+}
+button{
+    width: 100%;
+    height: 4rem;
+    background-color: #ff9f18;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.login__text{
+    height: 3rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.login__text__tac{
+    display: block;
+    height: 5rem;
+    margin: 4rem 0;
+}
+.login__text p{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color:rgb(4, 129, 154);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* mobile: width < 740px */
+@media only screen and (max-width: 46.1875em){
+ .none{
+    display: none;
+ }
+.lg{
+    display: none;
+}
+ .login__content__form{
+    width: 90%;
+    height: 40rem;
+    margin: 0 3%;
+}
+.login__background{
+    height: 70rem;
+}
+.login__background__cover{
+    height: 70rem;
+}
+button{
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 23%;
+}
+.login__text{
+    height: 4rem;
+    width: 100%;
+}
+.login__text__tac{
+    display: block;
+    height: 3rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+}
+/* tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .none{
+        display: none;
+    }
+    .login__content__form{
+        width: 60%;
+        height: 40rem;
+
+    }
+    .lg{
+        display: inline;
+    }
+    .lg__image__1and2{
+        width: 30rem;
+        margin-left: 8%;
+    }
+    .lg__image__text1{
+        width: 90%;
+        height: 25rem;
+        position: relative;
+    }
+    .lg__image__text1 .holy{
+        position: absolute;
+        color: #fff;
+        top: 18.5rem;
+        left: 1rem;
+        font-family: "Dancing Script";
+        font-size: 3rem;
+    }
+    .lg__image__text1 p{
+        position: absolute;
+        top: 22rem;
+        left: 1rem;
+        color: #fff;
+        font-size: 1.3rem;
+    }
+    .image__text3{
+        margin-top: 1rem;
+        margin-left: 8%;
+        width: 27rem;
+        height: 14rem;
+        position: relative;
+    }
+}
